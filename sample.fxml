@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="455.0" prefWidth="503.0" style="-fx-background-color: #484342; -fx-border-color: #EA210A;" styleClass="MyCss.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Button fx:id="seven" layoutX="100.0" layoutY="175.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="57.0" style="-fx-background-color: #F9F6FA;" text="7" textFill="#161616" />
+        <Button fx:id="eight" layoutX="186.0" layoutY="175.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="57.0" text="8" />
+        <Button fx:id="nine" layoutX="271.0" layoutY="175.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="57.0" text="9" />
+        <Button fx:id="divisor" layoutX="357.0" layoutY="175.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="57.0" text="/" />
+        <Button fx:id="four" layoutX="100.0" layoutY="235.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="57.0" text="4" />
+        <Button fx:id="five" layoutX="186.0" layoutY="235.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="57.0" text="5" />
+        <Button fx:id="six" layoutX="271.0" layoutY="235.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="57.0" text="6" />
+        <Button fx:id="multiply" layoutX="357.0" layoutY="235.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="57.0" text="x" />
+        <Button fx:id="one" layoutX="100.0" layoutY="295.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="57.0" text="1" />
+        <Button fx:id="two" layoutX="186.0" layoutY="295.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="57.0" text="2" />
+        <Button fx:id="three" layoutX="271.0" layoutY="295.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="57.0" text="3" />
+        <Button fx:id="minus" layoutX="357.0" layoutY="295.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="57.0" text="-" />
+        <TextField fx:id="textField" layoutX="100.0" layoutY="79.0" prefHeight="80.0" prefWidth="315.0">
+         <font>
+            <Font name="Bookman Old Style Bold" size="32.0" />
+         </font></TextField>
+        <Button fx:id="zero" layoutX="100.0" layoutY="347.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="57.0" text="0" />
+        <Button fx:id="point" layoutX="186.0" layoutY="347.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="57.0" text="." />
+        <Button fx:id="equal" layoutX="271.0" layoutY="347.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="57.0" text="=" />
+        <Button fx:id="plus" layoutX="357.0" layoutY="347.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="57.0" text="+" />
+      <Button fx:id="reset" layoutX="101.0" layoutY="390.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="315.0" text="Reset" />
+      <Label layoutX="99.0" layoutY="15.0" prefHeight="62.0" prefWidth="283.0" text="Calculator" textFill="#f7f7f7">
+         <font>
+            <Font name="Arial Black" size="27.0" />
+         </font>
+      </Label>
+    </children>
+</Pane>
